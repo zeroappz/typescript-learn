@@ -133,8 +133,10 @@ const user: UserInterface = {
     name: "John",
     age: 30,
     greet(phrase: string) {
-        console.log(phrase + ' ' + this.name);
+        console.log(phrase + ' ' + this.name + ' ' + this.age);
     }
 };
 
 user.greet("Hello!, I am");
+
+export { UserInterface }
