@@ -1,0 +1,12 @@
+Amusement Theme Park
+
+1. Entry Level Parking - Two wheeler/Four wheeler/Heavy vehicle - tickets - parking lots availability
+2. Tickets Purchasing - Adult/Kid/Pet Animal - Pricing - Timing/Number of Games (360 minutes/15 Games)
+3. Wet Games - 12 games - each game can be having time/count - [(G1 - 20/1), (G2 - 40/2)]
+4. Dry games - 12 games - each game can be having time/count - [(G1 - 25/1), (G2 - 40/2)]
+5. Reports - Total # of games Played/Games Left
+6. Reports - Total minutes Played/Time remains Left
+7. Splitting the Children Games/Adult Games
+
+
+// Class - Access Modifiers - Interfaces - Abstract Classes
