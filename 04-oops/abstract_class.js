@@ -34,6 +34,7 @@ var SubClass = /** @class */ (function (_super) {
     function SubClass() {
         var _this = _super.call(this, 'Praveen Kumar') || this;
         _this.bankAccNum = "309004747305";
+        _this.livingAt = 'Chennai, India';
         return _this;
     }
     // Abstract Method
@@ -49,7 +50,12 @@ var SubClass = /** @class */ (function (_super) {
     };
     return SubClass;
 }(ClassName));
-// Create an object
-var obj = new SubClass();
-obj.anyMethod();
-obj.abstractMethod();
+try {
+    // Create an object
+    var obj = new SubClass();
+    obj.anyMethod();
+    obj.abstractMethod();
+}
+catch (error) {
+    console.log(error);
+}
